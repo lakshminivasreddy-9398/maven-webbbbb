@@ -92,21 +92,13 @@
 		
 	</dependencies>
 	
-	<distributionManagement>
-	
-	    <repository>
-	      <id>nexus</id>
-	      <name>icici bank Releases Nexus Repository</name>
-	      <url>http://13.127.254.31:8081/repository/hctbank-release//</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>icici bank Snapshot Nexus Repository </name>
-	      <url>http://13.127.254.31:8081/repository/icicibank-snapshot//</url>
-	    </snapshotRepository>
-	    
-	</distributionManagement>
+<distributionManagement>
+    <repository>
+        <id>icicibank_relaese</id>
+        <url>http://13.233.183.84:8081/repository/icicibank_relaese</url>
+    </repository>
+</distributionManagement>
+
 	
 	<build>
 		<finalName>maven-web-application</finalName>
